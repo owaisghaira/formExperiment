@@ -1,7 +1,7 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 
-const InputField = ({ placeholder, ...props }) => {
+const AutoComplete = ({ placeholder, ...props }) => {
   return (
     <TextField
       id="standard-basic"
@@ -13,4 +13,4 @@ const InputField = ({ placeholder, ...props }) => {
   );
 };
 
-export default InputField;
+export default AutoComplete;

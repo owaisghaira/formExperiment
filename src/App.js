@@ -1,11 +1,16 @@
-import './App.css';
-import FormComponent from './pages/formComponent';
+import "./App.css";
+// import FormComponent from './pages/formComponent';
+// import FastForm from "./pages/kenCdots";
+import AntDesignForm from "./pages/AntDesignForm";
 // import FormicComponent from './pages/FormicTamplete';
 function App() {
   return (
-    
-    <FormComponent/>
+    // <FormComponent/>
     // <FormicComponent/>
+    <>
+      {/* <FastForm /> */}
+      <AntDesignForm />
+    </>
   );
 }
 
